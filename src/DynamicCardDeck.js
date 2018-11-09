@@ -30,7 +30,7 @@ export default class DynamicCardDeck extends React.Component {
       cards.push(blankCard);
     }
     return (
-      <CardDeck>
+      <CardDeck className="my-2">
         {this.createCards(this.props.cards)}
       </CardDeck>
     );

@@ -12,7 +12,7 @@ let CustomCard = (props) => {
   const data = props.data;
 
   return (
-      <Card>
+      <Card className="m-2">
           <CardImg top className="img-fluid" src={data.imageSource} alt={data.imageAltText} />
           <CardBody>
               <CardTitle>{data.cardTitle}</CardTitle>

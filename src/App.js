@@ -69,12 +69,12 @@ const cards = [
 
 export default () => (
   <div className="App">
-    <Jumbotron>
-        <h1 className="display-3">Welcome To My Hello World!</h1>
+    <Jumbotron className="text-center">
+        <h1 className="display-3 text-justify">Welcome To My Hello World!</h1>
         <hr className="my-2" />
         <p className="lead">My name is Ryan Oldford. Welcome, and hello!</p>
     </Jumbotron>
-    <Container>
+    <Container className="text-center">
       <MediaQuery maxWidth={767.98}>
         <DynamicCardDeckManager cards={cards} deckSize={2} />
       </MediaQuery>
