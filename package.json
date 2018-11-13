@@ -31,7 +31,11 @@
   ],
   "devDependencies": {
     "ajv": "^6.5.4",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "enzyme-to-json": "^3.3.4",
     "gh-pages": "^2.0.1",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "sinon": "^7.1.1"
   }
 }
