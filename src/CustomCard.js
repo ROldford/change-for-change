@@ -1,24 +1,32 @@
-// WrappingCard takes in card data and position in deck
-// Cards can output extra divs for wrapping
-// <div className="w-100 d-none d-sm-block d-md-none">{/* wrap every 2 on sm */}</div>
-// <div className="w-100 d-none d-md-block d-lg-none">{/* wrap every 3 on md*/}</div>
-// <div className="w-100 d-none d-lg-block d-xl-none">{/* wrap every 4 on lg*/}</div>
-// <div className="w-100 d-none d-xl-block">{/* wrap every 5 on xl*/}</div>
-
 import React from 'react';
 import {Card, CardImg, CardBody, CardTitle, CardText} from 'reactstrap';
+import Image from 'react-graceful-image';
 
 let CustomCard = (props) => {
   const data = props.data;
-
+  const imgStyle = {
+    display: 'block',
+    maxWidth: 64,
+    width: 'auto',
+    height: 'auto',
+    margin: 'auto'
+  }
   return (
-      <Card className="m-2">
-          <CardImg top className="img-fluid" src={data.imageSource} alt={data.imageAltText} />
-          <CardBody>
-              <CardTitle>{data.cardTitle}</CardTitle>
-              <CardText>{data.cardText}</CardText>
-          </CardBody>
-      </Card>
+    <Card className="m-2">
+      <CardBody>
+        <CardTitle>
+          {data.cardTitle}
+          <br />
+          <Image
+            src={data.imageSource}
+            width="64"
+            height="64"
+            alt={data.imageAltText}
+          />
+        </CardTitle>
+        <CardText>{data.cardText}</CardText>
+      </CardBody>
+    </Card>
   );
 }
 

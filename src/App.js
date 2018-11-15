@@ -6,62 +6,62 @@ import './App.css';
 
 const cards = [
   {
-    imageSource: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666',
+    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
     imageAltText: 'Card image cap',
     cardTitle: '1 Card title',
     cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
   },
   {
-    imageSource: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666',
+    imageSource: 'https://www.countryflags.io/aa/flat/64.png',
     imageAltText: 'Card image cap',
     cardTitle: '2 Card title',
     cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
   },
   {
-    imageSource: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666',
-    imageAltText: 'Card image cap',
+    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    imageAltText: 'Flag: Canada',
     cardTitle: '3 Card title',
     cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
   },
   {
-    imageSource: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666',
-    imageAltText: 'Card image cap',
+    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    imageAltText: 'Flag: Canada',
     cardTitle: '4 Card title',
     cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
   },
   {
-    imageSource: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666',
-    imageAltText: 'Card image cap',
+    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    imageAltText: 'Flag: Canada',
     cardTitle: '5 Card title',
     cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
   },
   {
-    imageSource: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666',
-    imageAltText: 'Card image cap',
+    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    imageAltText: 'Flag: Canada',
     cardTitle: '6 Card title',
     cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
   },
   {
-    imageSource: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666',
-    imageAltText: 'Card image cap',
+    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    imageAltText: 'Flag: Canada',
     cardTitle: '7 Card title',
     cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
   },
   {
-    imageSource: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666',
-    imageAltText: 'Card image cap',
+    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    imageAltText: 'Flag: Canada',
     cardTitle: '8 Card title',
     cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
   },
   {
-    imageSource: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666',
-    imageAltText: 'Card image cap',
+    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    imageAltText: 'Flag: Canada',
     cardTitle: '9 Card title',
     cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
   },
   {
-    imageSource: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666',
-    imageAltText: 'Card image cap',
+    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    imageAltText: 'Flag: Canada',
     cardTitle: '10 Card title',
     cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
   },
