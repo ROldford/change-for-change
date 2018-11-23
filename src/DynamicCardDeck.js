@@ -1,22 +1,26 @@
 // Makes a single deck given a variable set of cards
 
 import React from 'react';
+import PropTypes from 'prop-types';
 import { CardDeck } from 'reactstrap';
 import CustomCard from './CustomCard';
 
 export default class DynamicCardDeck extends React.Component {
-  createCard(data) {
-    return <CustomCard data={data} />;
+  createCard(card) {
+    return <CustomCard key={card.key} data={card.data} />;
   }
 
-  createBlankCard() {
+  createBlankCard(key) {
     const blankCardData = {
       imageSource: 'https://www.countryflags.io/aa/flat/64.png',
       imageAltText: '',
       cardTitle: '',
       cardText: ''
     };
-    return <CustomCard data={blankCardData} />;
+    return {
+      key: key,
+      data: blankCardData
+    };
   }
 
   createCards(cards) {
@@ -26,23 +30,24 @@ export default class DynamicCardDeck extends React.Component {
   render() {
     let cards = this.props.cards;
     while (cards.length < this.props.deckSize) {
-      let blankCard = this.createBlankCard();
+      let cardCountdown = this.props.deckSize - cards.length;
+      let cardKey = "blank {cardCountdown}";
+      let blankCard = this.createBlankCard(cardKey);
       cards.push(blankCard);
     }
     return (
       <CardDeck className="my-2">
-        {this.createCards(this.props.cards)}
+        {this.createCards(cards)}
       </CardDeck>
     );
   }
 };
 
 DynamicCardDeck.propTypes = {
-  cards: PropTypes.shape({
-    cardTitle: PropTypes.string,
-    cardText: PropTypes.string,
-    imageSource: PropTypes.string,
-    imageAltText: PropTypes.string
-  }),
+  cards: PropTypes.arrayOf(
+    PropTypes.shape({
+      data: PropTypes.object.isRequired
+    })
+  ),
   deckSize: PropTypes.number.isRequired
-}
+};
