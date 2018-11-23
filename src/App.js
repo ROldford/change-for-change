@@ -6,64 +6,74 @@ import './App.css';
 
 const cards = [
   {
-    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    key: 1,
+    data: {imageSource: 'https://www.countryflags.io/ca/flat/64.png',
     imageAltText: 'Card image cap',
     cardTitle: '1 Card title',
-    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'}
   },
   {
-    imageSource: 'https://www.countryflags.io/aa/flat/64.png',
+    key: 2,
+    data: {imageSource: 'https://www.countryflags.io/aa/flat/64.png',
     imageAltText: 'Card image cap',
     cardTitle: '2 Card title',
-    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'}
   },
   {
-    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    key: 3,
+    data: {imageSource: 'https://www.countryflags.io/ca/flat/64.png',
     imageAltText: 'Flag: Canada',
     cardTitle: '3 Card title',
-    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'}
   },
   {
-    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    key: 4,
+    data: {imageSource: 'https://www.countryflags.io/ca/flat/64.png',
     imageAltText: 'Flag: Canada',
     cardTitle: '4 Card title',
-    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'}
   },
   {
-    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    key: 5,
+    data: {imageSource: 'https://www.countryflags.io/ca/flat/64.png',
     imageAltText: 'Flag: Canada',
     cardTitle: '5 Card title',
-    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'}
   },
   {
-    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    key: 6,
+    data: {imageSource: 'https://www.countryflags.io/ca/flat/64.png',
     imageAltText: 'Flag: Canada',
     cardTitle: '6 Card title',
-    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'}
   },
   {
-    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    key: 7,
+    data: {imageSource: 'https://www.countryflags.io/ca/flat/64.png',
     imageAltText: 'Flag: Canada',
     cardTitle: '7 Card title',
-    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'}
   },
   {
-    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    key: 8,
+    data: {imageSource: 'https://www.countryflags.io/ca/flat/64.png',
     imageAltText: 'Flag: Canada',
     cardTitle: '8 Card title',
-    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'}
   },
   {
-    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    key: 9,
+    data: {imageSource: 'https://www.countryflags.io/ca/flat/64.png',
     imageAltText: 'Flag: Canada',
     cardTitle: '9 Card title',
-    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'}
   },
   {
-    imageSource: 'https://www.countryflags.io/ca/flat/64.png',
+    key: 10,
+    data: {imageSource: 'https://www.countryflags.io/ca/flat/64.png',
     imageAltText: 'Flag: Canada',
     cardTitle: '10 Card title',
-    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+    cardText: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'}
   },
 ];
 
