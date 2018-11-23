@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests renders correctly 1`] = `
+<div>
+  <DynamicCardDeck
+    cards={
+      Array [
+        Object {
+          "data": Object {
+            "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+            "cardTitle": "1 Card title",
+            "imageAltText": "Card image cap",
+            "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+          },
+          "key": 1,
+        },
+        Object {
+          "data": Object {
+            "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+            "cardTitle": "2 Card title",
+            "imageAltText": "Card image cap",
+            "imageSource": "https://www.countryflags.io/aa/flat/64.png",
+          },
+          "key": 2,
+        },
+        Object {
+          "data": Object {
+            "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+            "cardTitle": "3 Card title",
+            "imageAltText": "Flag: Canada",
+            "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+          },
+          "key": 3,
+        },
+        Object {
+          "data": Object {
+            "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+            "cardTitle": "4 Card title",
+            "imageAltText": "Flag: Canada",
+            "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+          },
+          "key": 4,
+        },
+        Object {
+          "data": Object {
+            "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+            "cardTitle": "5 Card title",
+            "imageAltText": "Flag: Canada",
+            "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+          },
+          "key": 5,
+        },
+      ]
+    }
+    deckSize={5}
+    key="1"
+  />
+  <DynamicCardDeck
+    cards={
+      Array [
+        Object {
+          "data": Object {
+            "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+            "cardTitle": "6 Card title",
+            "imageAltText": "Flag: Canada",
+            "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+          },
+          "key": 6,
+        },
+        Object {
+          "data": Object {
+            "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+            "cardTitle": "7 Card title",
+            "imageAltText": "Flag: Canada",
+            "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+          },
+          "key": 7,
+        },
+        Object {
+          "data": Object {
+            "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+            "cardTitle": "8 Card title",
+            "imageAltText": "Flag: Canada",
+            "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+          },
+          "key": 8,
+        },
+        Object {
+          "data": Object {
+            "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+            "cardTitle": "9 Card title",
+            "imageAltText": "Flag: Canada",
+            "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+          },
+          "key": 9,
+        },
+        Object {
+          "data": Object {
+            "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+            "cardTitle": "10 Card title",
+            "imageAltText": "Flag: Canada",
+            "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+          },
+          "key": 10,
+        },
+      ]
+    }
+    deckSize={5}
+    key="6"
+  />
+</div>
+`;

@@ -6,12 +6,12 @@ import DynamicCardDeck from './DynamicCardDeck';
 
 export default class DynamicCardDeckManager extends React.Component {
   createDeck(cards, deckSize) {
-    return <DynamicCardDeck cards={cards} deckSize={deckSize} />;
+    let key = cards[0].key;
+    return <DynamicCardDeck key={key} cards={cards} deckSize={deckSize} />;
   }
 
   createDecks(cards, deckSize) {
     const chunkedCards = chunk(cards, deckSize);
-    console.log(chunkedCards)
     return chunkedCards.map((chunk) => {return this.createDeck(chunk, deckSize)})
   }
 
