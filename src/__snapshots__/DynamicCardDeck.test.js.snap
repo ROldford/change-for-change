@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests renders blank cards when needed 1`] = `
+<CardDeck
+  className="my-2"
+  tag="div"
+>
+  <CustomCard
+    data={
+      Object {
+        "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "cardTitle": "1 Card title",
+        "imageAltText": "Card image cap",
+        "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+      }
+    }
+    key="1"
+  />
+  <CustomCard
+    data={
+      Object {
+        "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "cardTitle": "2 Card title",
+        "imageAltText": "Card image cap",
+        "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+      }
+    }
+    key="2"
+  />
+  <CustomCard
+    data={
+      Object {
+        "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "cardTitle": "3 Card title",
+        "imageAltText": "Flag: Canada",
+        "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+      }
+    }
+    key="3"
+  />
+  <CustomCard
+    data={
+      Object {
+        "cardText": "",
+        "cardTitle": "",
+        "imageAltText": "",
+        "imageSource": "https://www.countryflags.io/aa/flat/64.png",
+      }
+    }
+    key="blank {cardCountdown}"
+  />
+  <CustomCard
+    data={
+      Object {
+        "cardText": "",
+        "cardTitle": "",
+        "imageAltText": "",
+        "imageSource": "https://www.countryflags.io/aa/flat/64.png",
+      }
+    }
+    key="blank {cardCountdown}"
+  />
+</CardDeck>
+`;
+
+exports[`Tests renders correctly 1`] = `
+<CardDeck
+  className="my-2"
+  tag="div"
+>
+  <CustomCard
+    data={
+      Object {
+        "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "cardTitle": "1 Card title",
+        "imageAltText": "Card image cap",
+        "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+      }
+    }
+    key="1"
+  />
+  <CustomCard
+    data={
+      Object {
+        "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "cardTitle": "2 Card title",
+        "imageAltText": "Card image cap",
+        "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+      }
+    }
+    key="2"
+  />
+  <CustomCard
+    data={
+      Object {
+        "cardText": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "cardTitle": "3 Card title",
+        "imageAltText": "Flag: Canada",
+        "imageSource": "https://www.countryflags.io/ca/flat/64.png",
+      }
+    }
+    key="3"
+  />
+</CardDeck>
+`;
