@@ -11,7 +11,7 @@ export default class DynamicCardDeck extends React.Component {
 
   createBlankCard() {
     const blankCardData = {
-      imageSource: 'https://via.placeholder.com/318x270/FFFFFF/FFFFFF',
+      imageSource: 'https://www.countryflags.io/aa/flat/64.png',
       imageAltText: '',
       cardTitle: '',
       cardText: ''
@@ -36,3 +36,13 @@ export default class DynamicCardDeck extends React.Component {
     );
   }
 };
+
+DynamicCardDeck.propTypes = {
+  cards: PropTypes.shape({
+    cardTitle: PropTypes.string,
+    cardText: PropTypes.string,
+    imageSource: PropTypes.string,
+    imageAltText: PropTypes.string
+  }),
+  deckSize: PropTypes.number.isRequired
+}
