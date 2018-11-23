@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Card
+  className="m-2"
+  tag="div"
+>
+  <CardBody
+    tag="div"
+  >
+    <CardTitle
+      tag="h5"
+    >
+      Test Card
+      <br />
+      <GracefulImage
+        alt="Test alt text"
+        className={null}
+        height="64"
+        noLazyLoad={false}
+        noPlaceholder={false}
+        noRetry={false}
+        placeholderColor="#eee"
+        retry={
+          Object {
+            "accumulate": "multiply",
+            "count": 8,
+            "delay": 2,
+          }
+        }
+        src="./testdata/placeholder.png"
+        style={Object {}}
+        width="64"
+      />
+    </CardTitle>
+    <CardText
+      tag="p"
+    >
+      Test card text goes here
+    </CardText>
+  </CardBody>
+</Card>
+`;
