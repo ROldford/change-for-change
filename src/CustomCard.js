@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {Card, CardBody, CardTitle, CardText} from 'reactstrap';
 import Image from 'react-graceful-image';
 
@@ -21,6 +22,13 @@ let CustomCard = (props) => {
       </CardBody>
     </Card>
   );
+}
+
+CustomCard.propTypes = {
+  cardTitle: PropTypes.string.isRequired,
+  cardText: PropTypes.string.isRequired,
+  imageSource: PropTypes.string.isRequired,
+  imageAltText: PropTypes.string.isRequired
 }
 
 export default CustomCard;
