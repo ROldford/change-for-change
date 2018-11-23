@@ -25,10 +25,12 @@ let CustomCard = (props) => {
 }
 
 CustomCard.propTypes = {
-  cardTitle: PropTypes.string.isRequired,
-  cardText: PropTypes.string.isRequired,
-  imageSource: PropTypes.string.isRequired,
-  imageAltText: PropTypes.string.isRequired
+  data: PropTypes.shape({
+    cardTitle: PropTypes.string,
+    cardText: PropTypes.string,
+    imageSource: PropTypes.string,
+    imageAltText: PropTypes.string
+  })
 }
 
 export default CustomCard;
